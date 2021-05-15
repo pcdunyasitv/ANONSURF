@@ -21,8 +21,8 @@ os.system("curl icanhazip.com")
 print("-----------------------------")
 
 while True:
-	time.sleep(sure)
-	os.system("anonsurf restart")
+	time.sleep("+sure+")
+	os.system("anonsurf changeid")
 	os.system("clear")
 	print("Yeni IP Adres :")
 	print("-----------------------------")
