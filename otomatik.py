@@ -11,7 +11,7 @@ print("""
 Bu araçla otomatik olarak IP Adres değiştirebilirsiniz, değeri saniye olarak girin.
 """)
 
-sure = input("IP Değişim Süre(saniye) : ")
+sure = int(input("IP Değişim Süre(saniye) : "))
 
 os.system("anonsurf start")
 os.system("clear")
